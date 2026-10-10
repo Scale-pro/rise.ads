@@ -19,6 +19,13 @@ O Adplane só se conecta pelo Claude (login interativo), então o fluxo é:
    - `ANTHROPIC_API_KEY` (chat e análises) e, se quiser, `ANTHROPIC_MODEL`
 5. Redeploy. No primeiro acesso o painel carrega a leitura de exemplo de 10/10/2026.
 
+## Checklist antes do deploy
+- `vercel.json` já fixa o framework Next.js e a região `gru1` (São Paulo); Node >= 18.18.
+- **Upstash Redis é obrigatório na prática**: sem ele os dados ficam só em memória e se perdem a cada cold start (a Vercel tem disco somente leitura).
+- Sem `DASHBOARD_PASSWORD` o painel responde 503 em produção (proposital).
+- Variáveis em Production **e** Preview: `DASHBOARD_PASSWORD`, `INGEST_TOKEN`, `MCP_TOKEN`, `ANTHROPIC_API_KEY` (opcional: `ANTHROPIC_MODEL`).
+- Depois do deploy, teste: `curl -u x:SENHA https://SEU-PROJETO.vercel.app/api/accounts`.
+
 ## Ligar a rotina diária do Claude ao painel
 No fim da rotina (PASSO 5), além de gravar no painel antigo, envie:
 
