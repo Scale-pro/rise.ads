@@ -1,0 +1,18 @@
+// Imagens hospedadas externamente (exportadas do Stitch). Para maior estabilidade,
+// baixe-as para /public/img e troque as URLs por caminhos locais (ex.: "/img/hero.jpg").
+export const images = {
+  hero:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuBjtiz_r0Hx-9sv5itwFsI1s1p0dLNOeV7HObI4V0CmhurpuhdN9sM6KY3PLSUIDdQtniwthj53Fp7xOjasl-ZL2FHq2SqY4QG414iw5DEf2ijQNSLvF-m53m1URP0bDpYsO_rjzzp9t4SKTnJOycB8KlqkYv5wdTTYoC6eV9wZHfasHZhMcjOlrB0xT17Kc2OSpQUrBC_9n5Du-LNo6E5pW9nS45isB8qChIgaNy8b7dLhPlif7JC_",
+  step1:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuAwJ8l8yABgZQA3Y3UXZEJFq4KalS9lm1mu4PWQidswwunI32L4RFoT0d2Go6NiXmbx99FmlM69BUCRMRtsQP-fuNVrtRIPNJ054PxxczariR5SsRSot4q-Gvc4RcPbZhHJwxIc1Jcs73VOYoF9kZ7UlCnIOpQr0Om3uBEuGHGvfC4hsu0HlFP_VLWwJ6-wJjtYDCmgAJDGzyinsarlA8yMQwokC6QNAoM5nFaFpOC4OLywym0-kcEL",
+  step2:
+    "https://lh3.googleusercontent.com/aida-public/AB6AXuB6pMi-qLOwnbKcuw9rNdQ1m3ci-3abzlRmbiC4xwACy1LCNV56hPYvLV1Xw_3k0FNSmX7DkfsLu3ZnB5CvFg_0AZMC5hfqt4eiQ1YK5GFqB9h_v-6PlDpK8tFpVKblMuAG7zkYL5jndf1s28m9YFYhOWhi6EYoRvVtME3ITNCf9Cax0BNQ6XZkIgp8HoWslnYXof5RdEssBcsI637rXb92eeUFNSBQHN8BShSY6sAKHa2FF8xefXxh",
+  case1:
+    "https://lh3.googleusercontent.com/aida/AEtjO1VpY4nILT5JbY76v6iRGEBaJC0rwTH4dd2f_2pmNkpYHDD8awDCjBmjJ69ZR4R6bVKC9EDtFN0tzOK2ij3gDCEdzJJwzfsW2ThJ_fR4Zsvb-c-Y2AXlxdQPtxKdEU1_nH7C7pptJrPJy4KLldIfclrfDH2plLWrtHXo2-H0y0Q9CGjRnp9XrgPWXKoxYZmMjLiGB-CcAkDYghZ-Kw_MJKUoS4JvF4k6Mj7O_xeE3ADeurmv-qm3M057VcM",
+  case2:
+    "https://lh3.googleusercontent.com/aida/AEtjO1UwMqzeA7okaXksSM1KYZHAFZticikdUcnsVnhMbNZ4z9JFx6ZZjpMfnBxFprRNB5dGaCt4Ygwiet4E3ljbCkHfChdexGEGGScEbuMcu384aMFx949jMePSm6duG9I-OnCwyOwyqf2_cvc715Tcw5KPHVtm5pnNEN8BYh_8ySEUF4OtBglargACAqcebRGnXkcjYqZrSIwLYgVtOQTrkug6EJPODsyVOKPMixmt3Ube0R6yGQxeNxPdXio",
+  case3:
+    "https://lh3.googleusercontent.com/aida/AEtjO1U7CvQa1GGC4tppdaCNcOf6pJakqdDKHjO3HhcAwCvW4bkKUpgk10JUN_jYj_f_5jnQ-rU5C5LmQl5KJkZhbKEpQnputdAmOyKOjGWNvDKVS0bKtDAhvBiA7qK1VER4UlgDZJs5ydrl3-QSCWDHytWBuJcbO4GUaUxYLFW2DznY4U2jijmFBmmqKBh4T8uXvYC6-wMCPUGX8waJLv_rekmiUfIoJ7AKzvmUICWz9eBxx768WdWtbwmKpA",
+  case4:
+    "https://lh3.googleusercontent.com/aida/AEtjO1WpdHk2N02J0FM2hqOnW8dL6TKnpDcMF0fHgmkzHoJiEurJF-5IWsxz4i25raHmyen3kn7Y0YpL8fANPK-fHxFzbKWXBiEHJMCHEf26A-ZVkkbD9jRr0SLv5CWq7_h9Nmi3QsVCWxwKYTGe_KnWO0JHQgKoaZvsf71D28_38o6k7-Ko2E3HdiMc2pVGuLvFbN8W_3kyvF7SQqtyfqBdsaNPJ5ctO3lq1Ja47wXT_RpAX37YaKU2aIEwqA",
+} as const;
